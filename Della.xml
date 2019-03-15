@@ -1,0 +1,97 @@
+<object-stream>
+  <control.Controller>
+    <actionItemManager>
+      <editChangesPending>false</editChangesPending>
+      <aiList>
+        <model.ActionItem>
+          <actionItemName>One</actionItemName>
+          <description>OneD</description>
+          <resolution>OneR</resolution>
+          <status>Open</status>
+          <dueDate>2018-10-14 18:30:00.0 UTC</dueDate>
+          <createdDate>2018-10-14 05:56:00.972 UTC</createdDate>
+        </model.ActionItem>
+        <model.ActionItem>
+          <actionItemName>Two</actionItemName>
+          <description>TwoD</description>
+          <resolution>TwoR</resolution>
+          <status>Open</status>
+          <dueDate>2018-10-15 18:30:00.0 UTC</dueDate>
+          <createdDate>2018-10-14 05:56:19.73 UTC</createdDate>
+        </model.ActionItem>
+        <model.ActionItem>
+          <actionItemName>Three</actionItemName>
+          <description>ThreeD</description>
+          <resolution>ThreeR</resolution>
+          <status>Open</status>
+          <dueDate>2018-10-16 18:30:00.0 UTC</dueDate>
+          <createdDate>2018-10-14 05:56:41.111 UTC</createdDate>
+        </model.ActionItem>
+      </aiList>
+      <currentActionItem reference="../aiList/model.ActionItem[3]"/>
+      <emptyActionItem>
+        <actionItemName></actionItemName>
+        <description></description>
+        <resolution></resolution>
+        <status></status>
+      </emptyActionItem>
+      <accessManager>
+        <accessList>
+          <model.AccessItem>
+            <name>2018-10-15: One</name>
+            <nameIndex>0</nameIndex>
+          </model.AccessItem>
+          <model.AccessItem>
+            <name>2018-10-16: Two</name>
+            <nameIndex>1</nameIndex>
+          </model.AccessItem>
+          <model.AccessItem>
+            <name>2018-10-17: Three</name>
+            <nameIndex>2</nameIndex>
+          </model.AccessItem>
+        </accessList>
+      </accessManager>
+      <sortDirection>0</sortDirection>
+      <sortFactor1>0</sortFactor1>
+      <sortFactor2>2</sortFactor2>
+      <memberList>
+        <theList>
+          <model.Element>
+            <name>First</name>
+            <numAssociatedNames>0</numAssociatedNames>
+            <associatedName>
+              <null/>
+              <null/>
+              <null/>
+              <null/>
+              <null/>
+              <null/>
+              <null/>
+              <null/>
+              <null/>
+              <null/>
+            </associatedName>
+          </model.Element>
+          <model.Element>
+            <name>Last</name>
+            <numAssociatedNames>0</numAssociatedNames>
+            <associatedName>
+              <null/>
+              <null/>
+              <null/>
+              <null/>
+              <null/>
+              <null/>
+              <null/>
+              <null/>
+              <null/>
+              <null/>
+            </associatedName>
+          </model.Element>
+        </theList>
+        <unaddedName>Second</unaddedName>
+        <currentSelectedElementIndex>-1</currentSelectedElementIndex>
+      </memberList>
+    </actionItemManager>
+  </control.Controller>
+</object-stream>
