@@ -71,8 +71,8 @@ public class AccessItemManager {
 			exchanges = false;
 			for (int i = 0; i < listSize - pass; i++){
 				if (sortDirection == 1){
-					if (accessList.get(i).getName().compareToIgnoreCase(accessList.get(i+1).getName()) > 0) {
-						//changed to >
+					if (accessList.get(i).getName().compareToIgnoreCase(accessList.get(i+1).getName()) < 0) {
+						
 						AccessItem temp = accessList.get(i);
 						accessList.set(i, accessList.get(i+1));
 						accessList.set(i+1, temp);
@@ -80,8 +80,8 @@ public class AccessItemManager {
 					}
 				}
 				else {
-					if (accessList.get(i).getName().compareToIgnoreCase(accessList.get(i+1).getName()) < 0) {
-						//changed to <
+					if (accessList.get(i).getName().compareToIgnoreCase(accessList.get(i+1).getName()) > 0) {
+						
 						AccessItem temp = accessList.get(i);
 						accessList.set(i, accessList.get(i+1));
 						accessList.set(i+1, temp);
